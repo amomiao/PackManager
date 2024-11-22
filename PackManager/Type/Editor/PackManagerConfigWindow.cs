@@ -20,13 +20,13 @@ namespace Momos.Tools.PackManager
         private Vector2 sv;
         private PackMgrConfigLoader loader;
         private PackMgrConfigAsset config;
-        private PackMgrFunction function;
+        private PackMgrAssistant function;
         private float textContentWidth;    // Max(300, position.width - 16 - LabelContentWidth), 其中16是竖滚动条
 
         private float LabelContentWidth => 560;
         private PackMgrConfigLoader Loader => loader ?? new PackMgrConfigLoader();
         private PackMgrConfigAsset Config => config;
-        private PackMgrFunction Function => function ?? new PackMgrFunction();
+        private PackMgrAssistant Function => function ?? new PackMgrAssistant();
 
         private void Save()
         {

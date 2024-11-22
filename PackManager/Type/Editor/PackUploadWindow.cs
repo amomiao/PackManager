@@ -13,8 +13,8 @@ namespace Momos.Tools.PackManager
         private string directoryName;
         private string description;
         private bool isMomos;
-        private PackMgrFunction function;
-        private PackMgrFunction Function => function ?? new PackMgrFunction();
+        private PackMgrAssistant function;
+        private PackMgrAssistant Function => function ?? new PackMgrAssistant();
 
         internal void UploadCreate()
         {

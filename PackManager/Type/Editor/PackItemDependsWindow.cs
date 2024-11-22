@@ -10,8 +10,8 @@ namespace Momos.Tools.PackManager
         internal PackMgrConfigAsset config;
         internal PackItemBody packItem;
         private Vector2 sv;
-        private PackMgrFunction function;
-        private PackMgrFunction Function => function ?? new PackMgrFunction();
+        private PackMgrAssistant function;
+        private PackMgrAssistant Function => function ?? new PackMgrAssistant();
 
         private void OnGUI()
         {

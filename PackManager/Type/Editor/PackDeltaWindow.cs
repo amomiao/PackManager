@@ -10,8 +10,8 @@ namespace Momos.Tools.PackManager
         private bool isChangable = false;
         private Vector2 usv;
         private Vector2 dsv;
-        private PackMgrFunction function;
-        private PackMgrFunction Function => function ?? new PackMgrFunction();
+        private PackMgrAssistant function;
+        private PackMgrAssistant Function => function ?? new PackMgrAssistant();
 
         private void OnGUI()
         {

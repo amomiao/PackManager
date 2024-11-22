@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Momos.Tools.PackManager
 {
-    internal class PackMgrFunction
+    internal class PackMgrAssistant
     {
         /// <summary> 打开详情面板 </summary>
         internal void ShowPackDeltaWindow(PackMgrConfigAsset config, PackItemBody packItem)
